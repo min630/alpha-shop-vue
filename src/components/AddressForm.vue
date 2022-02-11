@@ -56,6 +56,7 @@
 
 <script>
 export default {
+  name: 'Address',
   data() {
     return {
       addressInfo: {
@@ -67,6 +68,19 @@ export default {
         address: '',
       },
     }
-  }
+  },
+  // computed: {
+  //   addressFormSaved() {
+  //     const addressData = {
+  //       gender: this.addressInfo.gender,
+  //       name: this.addressInfo.name,
+  //       tel: this.addressInfo.tel,
+  //       email: this.addressInfo.email,
+  //       city: this.addressInfo.city,
+  //       address: this.addressInfo.address
+  //     }
+  //     this.$emit('addressForm-saved', addressData)
+  //   }
+  // }
 }
 </script>
